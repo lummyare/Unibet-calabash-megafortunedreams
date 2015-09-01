@@ -133,10 +133,11 @@ end
 
 When(/^I click the close button$/) do
   touch "button marked:'image close white'"
+  sleep 1
 end
 
 Then(/^I should go back to Log in Screen$/) do
   sleep 2
-  @loginPage.verify_logIn_page "Log in with your Unibet account"
-  sleep 1
+  @loginPage.verify_logIn_page "Register"
+  sleep 5
 end
