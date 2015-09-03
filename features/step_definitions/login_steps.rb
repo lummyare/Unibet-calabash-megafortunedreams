@@ -14,21 +14,6 @@ Given(/^I land on Login screen$/) do
     sleep 1
     end
 
-
- #  k=set_location place:'Tower of London'
- #  if
- #    k !=true
- #  # set_location place:'London' ==true
- #    fail 'Location not set to London'
- #  sleep 5
- #    touch "label marked:'Log in'"
- #    sleep 2
- #   @loginPage.verify_logIn_page "Log in with your Unibet account"
- #  sleep 5
- #  else
- # puts 'Location set success'
- #  end
-
 end
 
 And(/^I enter an invalid login credentials$/) do
